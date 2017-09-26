@@ -1,0 +1,13 @@
+/*下拉筛选样式*/
+.enter_icon{background: url(../images/enter_icon.png) no-repeat;}
+.sel_box{position:relative;float: left;width:168px;height:34px;line-height: 34px;font-size: 14px;color:#666;border:1px solid #b8d1d1;border-radius: 3px;z-index: 1;}
+.sel_box:hover{border-color: #34c5c7;}
+.slebg{display: block;position: absolute;top:13px;right: 4px;width: 20px;height: 16px;background-position: -634px 2px}
+.sel_box .sel_show{cursor: pointer;width:80%;padding-left:5%;padding-right:15%;height:34px;display:block;overflow:hidden;}
+.sel_box .sel_show:hover{border-color: #b8d1d1;}
+.sel_box .sel_show.cur{border-color: #b8d1d1;}
+.sel_box .sel_more{display:none;width: 100%;max-height:300px;position:absolute;top:34px;left:-1px;cursor: pointer;background: #fff;overflow: auto; border:1px solid #34c5c7;border-bottom-left-radius: 3px;border-bottom-right-radius: 3px;}
+.sel_box .sel_more.in{display: block;}
+.sel_box .sel_more p{height: 34px;line-height: 34px;font-size:14px;padding-left: 12px;}
+.sel_box .sel_more p:hover{background:#cfe2e2;}
+.AreaBox .sel_box{float: left;margin-right: 9px;}/*地区盒子*/
